@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+    font-size: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+body {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font: 20px Roboto Slab, Arial, sans-serif;
+    background-image: url(assests/Background.png);
+    color: black;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#main_basket {
+    position: absolute;
+    width: 115px;
+    height: 38px;
+    left: 1251px;
+    top: 89px;
+
+    background: #5222D0;
+    border-radius: 100px;
+    width: 115px;
+    radius: 100px;
+}
+
+.main_logo {
+    position: absolute;
+    width: 201px;
+    height: 40px;
+    left: 76px;
+    top: 90px;
+}
+
+.card {
+    position: absolute;
+    width: 542px;
+    height: 216px;
+    left: 126px;
+    top: 206px;
+}
+.card_title {
+    width: 542px;
+    height: 216px;
+    left: 126px;
+    top: 206px;
+
+    font-family: 'Intro ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120%;
+    color: #000000;
+
+}
+
+#card_basket {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 270px;
+    height: 84px;
+    background: #5222D0;
+    border-radius: 100px;
+
+    font-family: 'Intro ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.content_img {
+    position: absolute;
+    left: 75.65%;
+    right: 12.17%;
+    top: 26.32%;
+    bottom: 36.84%;
+}
+
+.card-text {
+    position: absolute;
+    width: 487px;
+    height: 96px;
+    left: 126px;
+    top: 432px;
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+}

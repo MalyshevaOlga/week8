@@ -1,21 +1,22 @@
 html {
-    height: 100%;
-    font-size: 100%;
-  }
-  
-  body {
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-    font: 16px/24px Arial, sans-serif;
-    backgound-color: white;
-    color: black;
-  }
-  .End {
-    color: white;
-    text-align: center;
-    padding: 10px;
+  height: 100%;
+  font-size: 100%;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font: 16px/24px Arial, sans-serif;
+  backgound-color: white;
+  color: black;
+}
+
+.End {
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
