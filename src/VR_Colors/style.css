@@ -37,6 +37,13 @@ button {
     border-radius: 100px;
     width: 115px;
     radius: 100px;
+
+    font-family: 'Intro ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFFFFF;
 }
 
 .main_logo {
@@ -47,20 +54,21 @@ button {
     top: 90px;
 }
 
-.card {
+.content_text {
     position: absolute;
     width: 542px;
     height: 216px;
     left: 126px;
     top: 206px;
 }
-.card_title {
+
+.text_about {
     width: 542px;
     height: 216px;
     left: 126px;
     top: 206px;
 
-    font-family: 'Intro ';
+    font-family: 'Intro 'Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
@@ -69,7 +77,20 @@ button {
 
 }
 
-#card_basket {
+.text_about2 {
+    width: 487px;
+    height: 96px;
+    left: 126px;
+    top: 432px;
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+}
+
+#text_basket {
     left: 0;
     right: 0;
     top: 0;
@@ -95,16 +116,64 @@ button {
     bottom: 36.84%;
 }
 
-.card-text {
+.link-independent1 {
     position: absolute;
-    width: 487px;
-    height: 96px;
+    width: 139px;
+    height: 32px;
     left: 126px;
-    top: 432px;
-    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    top: 788px;
+
+    font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 160%;
-    color: #000000;
+    color: #5222D0;
+}
+
+.link-independent2 {
+    position: absolute;
+    width: 111px;
+    height: 32px;
+    left: 299px;
+    top: 788px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #5222D0;
+
+}
+
+.link-independent3 {
+    position: absolute;
+    width: 95px;
+    height: 32px;
+    left: 444px;
+    top: 788px;
+
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #5222D0;
+
+}
+
+.link-independent4 {
+    position: absolute;
+    width: 85px;
+    height: 32px;
+    left: 573px;
+    top: 788px;
+
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+
+    color: #5222D0;
 }
